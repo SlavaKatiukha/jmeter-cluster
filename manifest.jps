@@ -24,8 +24,7 @@ nodes:
     nodeGroupData:
       validation:
         maxCount: 1
-    links: worker:worker
-    addons: options
+    links: worker:worker    
     displayName: Master
 
   - nodeType: javaengine
